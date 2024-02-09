@@ -1,39 +1,45 @@
-const Container=()=>{
+const Container_page=()=>{
     return(
         <>
-                <div className="container-fluid">
-                    <div className=" mx-auto row_1  justify-content-start align-item-center border-bottom-dark mt-4 border">
-                        <div className="col-2 col_1 border border-dark"></div>
-                        <div className="row mx-auto border row_2 border border-dark">
-                            <div className="col-3 card m-3 border border-dark box1"></div>
-                            <div className="col-3 card m-3 border border-dark box1"></div>
-                            <div className="col-3 card m-3 border border-dark box1"></div>
-                           
-                        </div>
-                        <div className="row mx-auto border border-dark row_2">
-                            <div className="col-3 card m-3 border border-dark box1"></div>
-                            <div className="col-3 card m-3 border border-dark box1"></div>
-                            <div className="col-3 card m-3 border border-dark box1"></div>
-                           
-                        </div>
-                        <div className="row mx-auto border border-dark row_2">
-                            <div className="col-3 card m-3 border border-dark box1"></div>
-                            <div className="col-3 card m-3 border border-dark box1"></div>
-                            <div className="col-3 card m-3 border border-dark box1"></div>
-                           
-                        </div>
-                        <div className="col p-5 d-flex justify-content-center">
-                            <div className="col-5 p-3">
-                                <img src="Frame 13.png"/>
-                            </div>
-                        </div>
-                        
-                         
+            <div className="container">
+                <div className="row justify-content-center mt-5">
+                    <div className="col-12 col-sm-auto p-3 d-flex text-center">
+                   
+                        <input className="p-3 bg-white text-black" type="search" />
+                        <button className="btn bg-danger" type="submit">Go</button>
+                    
                     </div>
                 </div>
+                <div className ="row mt-5 border border-dark">
+                    <div className="text-color">
+                        <p>TOP NEWS FROM INDIA</p>
+                    </div>
+                
+                    <div className="row border border-dark box-size mb-5">
+                        <div className="col-sm-12 col-md-4 border border-dark "></div>
+                        <div className="col-sm-12 col-md-4 border border-dark "></div>
+                        <div className="col-sm-12 col-md-4 border border-dark "></div>
+                     </div>
+                     <div className="row border border-dark box-size mb-5">
+                        <div className="col-sm-12 col-md-4 border border-dark "></div>
+                        <div className="col-sm-12 col-md-4 border border-dark "></div>
+                        <div className="col-sm-12 col-md-4 border border-dark "></div>
+                     </div>
+                     <div className="row border border-dark box-size">
+                        <div className="col-sm-12 col-md-4 border border-dark "></div>
+                        <div className="col-sm-12 col-md-4 border border-dark "></div>
+                        <div className="col-sm-12 col-md-4 border border-dark "></div>
+                     </div>
+                    
+                </div>
+            </div>
+            
+
+
+                
             
         </>
         
     )
 }
-export default Container;
+export default Container_page;

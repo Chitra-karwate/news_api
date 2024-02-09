@@ -1,12 +1,13 @@
 import Header from "./header.js";
-/*import Footer from "./footer.js";*/
-import Container from "./container.js";
+import Rowpage from "./rowpage.js";
+import Footer from "./footer.js";
 
 const page=()=>{
     return(
         <>
             <Header/>
-            <Container/>
+            <Rowpage/>
+            <Footer/>
             
             
         </>

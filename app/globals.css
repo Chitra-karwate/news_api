@@ -4,43 +4,59 @@ body{
     padding:0px;
 }
 
-.symbol{
-    width:80px;
-}
-.head-text{
-    width:370px;
+.header-text{
+  font-size: 84px;
 }
 
-.head-text-2{
-    width:160px;
+@media(max-width: 414px){
+  .header-text{
+   font-size: 35px;
+  }
+  .image{
+    width: 25px;
+    height: 25px;
+    margin-top:8px;
+  }
+ }
+
+ .search-row{
+  text-align: center;
+ }
+ 
+ 
+ .search-button{
+    color:white;
+    background-color:#E84848;
+    display:inline;
+}
+ 
+.searchbar{
+    background-image:url("/Frame 15.png");
+    background-position:5px center;
+    background-repeat:no-repeat;
+    padding-left:40px;
+    height:53px;
+   
+ }
+
+
+.text-color{
+    color:red;
 }
 
-.body-box{
-    height:1387px;
-    width:910px;
-}
 
-.body-box1{
+.box-size{
     height:388px;
 }
 
-.body-box2{
-    height:388px;
+.footer-text{
+    font-size:16px;
 }
-.row_1{
-    height:1860px;
-    width:1320px;
 
+
+  
+.image1{
+   width:16px;
+   height:16px;
 }
-.col_1{
-    height:30px;
-}    
-    
-.row_2{
-    width:1320px;
-    height:580px;
-}
-.box1{
-    width:25rem;
-    height:33rem;
-}
+
